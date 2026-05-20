@@ -65,6 +65,17 @@ Les 4 autres (Maya, Sophia, Caravaggio, Victor) — montrés à la fin.
 
 ## 3. Démo live — « Pneu auto-cicatrisant » (18 min)
 
+> **Ligne de contexte à coller en tout premier**, avant les prompts ci-dessous, pour calibrer le niveau de réponse (et éviter mode vulgarisation) :
+>
+> ```
+> Contexte : équipe R&D industrielle, profils ingénieurs matériaux / polymères /
+> mécanique pneu. Réponds à un niveau scientifique avancé (terminologie
+> technique OK, pas de simplification grand public). Sois concret : pour chaque
+> principe, donne un exemple matériau ou architectural exploitable en labo.
+> ```
+>
+> Volontairement **pas de mention "Michelin"** : risque d'hallucination sur des produits/brevets internes + dérive vers un registre marketing.
+
 ### Étape 1 — Lancer Dr. Quinn (TRIZ)
 
 ```
