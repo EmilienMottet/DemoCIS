@@ -29,8 +29,8 @@ bonjour, présente-toi en 2 lignes
 |---|---|
 | 2 min | Ouverture — leurs innovations cartographiées sur des méthodes connues |
 | 3 min | Le toolkit en une slide |
-| 18 min | Démo live — « pneu auto-cicatrisant » |
-| 5 min | Reveal complet du kit |
+| 20 min | Démo live — « pneu auto-cicatrisant » |
+| 3 min | Reveal complet du kit |
 | 2 min | Question retour ouverte |
 
 ---
@@ -54,12 +54,13 @@ Tableau à projeter :
 
 CIS = 6 agents + 4 workflows installables dans n'importe quel IDE (Claude Code, Cursor, etc.).
 
-Pour aujourd'hui on en active 2 :
+Pour aujourd'hui on en active **3** :
 
 - **Dr. Quinn** — *Master Problem Solver*. Canalise Altshuller (TRIZ) et Donella Meadows (systems thinking).
 - **Carson** — *Elite Brainstorming Specialist*. Méthodes : first principles, morphological analysis, cross-pollination.
+- **Victor** — *Disruptive Innovation Oracle*. Innovation Ambition Matrix, Three Horizons, Disruption Theory (Christensen), Scenario Planning.
 
-Les 4 autres (Maya, Sophia, Caravaggio, Victor) — montrés à la fin.
+Les 3 autres (Maya, Sophia, Caravaggio) — montrés à la fin.
 
 ---
 
@@ -120,12 +121,29 @@ ou industriels ont résolu un problème analogue ?
 
 > **Attendu** : décomposition fonctionnelle nette + analogies vers aérospatial (composites auto-réparants NASA), biomédical (hydrogels), bâtiment (béton auto-cicatrisant à bactéries), électronique (polymères Diels-Alder réversibles)…
 
-### Étape 4 — Pause et débat avec le public
+### Étape 4 — Clôture par Victor (Innovation Ambition Matrix)
+
+```
+/bmad-cis-agent-innovation-strategist
+
+Sur la base des 4-5 pistes matériaux/architecturales qu'on vient de générer
+(TRIZ + biomimétisme + first principles + cross-pollination), applique
+l'Innovation Ambition Matrix : pour chaque piste, classe-la en
+core / adjacent / transformational, en argumentant sur les axes
+(marché cible, technologie nouvelle, modèle d'affaires).
+
+Termine par une recommandation de portefeuille : quel mix entre les 3
+catégories serait raisonnable pour les 24 prochains mois ?
+```
+
+> **Attendu** : matrice 2D claire (où chaque piste est placée), avec justification courte. Les pistes "remplir un additif réactif" partent en core/adjacent, les pistes "compound vivant à culture bactérienne" en transformational. Le mix de clôture donne un artefact concret que l'équipe pourra réutiliser.
+
+### Étape 5 — Pause et débat avec le public
 
 Couper la démo et demander :
-> « Si on devait choisir 2 pistes à tester en labo la semaine prochaine, lesquelles ? Pourquoi ? »
+> « Sur la matrice, où mettriez-vous vos priorités ? Et quelle piste vous tenteriez en labo la semaine prochaine ? »
 
-C'est **le moment clé** : ils voient que CIS structure la discussion sans la remplacer.
+C'est **le moment clé** : ils voient que CIS structure la discussion sans la remplacer — du divergent (Carson, Dr. Quinn) au convergent stratégique (Victor).
 
 ---
 
@@ -135,10 +153,10 @@ C'est **le moment clé** : ils voient que CIS structure la discussion sans la re
 |---|---|
 | **Dr. Quinn** *(problem-solver)* | TRIZ, biomimétisme, root cause, Theory of Constraints — **cœur de l'usage scientifique** |
 | **Carson** *(brainstorming-coach)* | First principles, morphological analysis, provocation, cross-pollination |
+| **Victor** *(innovation-strategist)* | **Innovation Ambition Matrix**, Three Horizons, Scenario Planning, Disruption Theory (Christensen) |
 | **Maya** *(design-thinking-coach)* | Quand un produit doit rencontrer un utilisateur (cas wheelchair gloves) |
 | **Sophia** *(storyteller)* | Pitcher une innovation à un comité de direction |
 | **Caravaggio** *(presentation-master)* | Préparer une présentation scientifique percutante |
-| **Victor** *(innovation-strategist)* | Innovation Ambition Matrix — équilibre core / adjacent / transformational |
 
 Workflows complémentaires : `bmad-cis-design-thinking`, `bmad-cis-innovation-strategy`, `bmad-cis-problem-solving`, `bmad-cis-storytelling`.
 
